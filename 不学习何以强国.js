@@ -288,9 +288,9 @@ async function reading(type) {
     //看文章或者视频
     var time = 1;
     if (type == 0) {
-        time = parseInt(Math.random() * (100 - 80 + 1) + 80, 10);//80-100秒后关闭页面，看文章
+        time = parseInt(Math.random() * (70 - 50 + 1) + 50, 10);//50-70秒后关闭页面，看文章
     } else {
-        time = parseInt(Math.random() * (250 - 230 + 1) + 230, 10);//230-250秒后关闭页面，看视频
+        time = parseInt(Math.random() * (70 - 60 + 1) + 60, 10);//60-70秒后关闭页面，看视频
     }
     let firstTime = time - 2;
     let secendTime = 12;
